@@ -1,7 +1,8 @@
 import './App.css'
-import { useState } from 'react'
+// import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
+import ContactPage from './pages/ContactPage'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Router>
     </>
