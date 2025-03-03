@@ -1,12 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 // import './LandingPage.css';
 
 const LandingPage = () => {
     return (
         <div className="landing-page">
-            <header className="header">
-                <h1>Welcome to Willow Springs Capital</h1>
-            </header>
+
+            <Navbar/>
             <footer className="footer">
                 <p>&copy; 2025 Willow Springs Capital. All rights reserved.</p>
             </footer>
