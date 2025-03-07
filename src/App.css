@@ -45,4 +45,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.icon-container {
+  display: inline-flex; /* Align items in a row */
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+  width: 50px; /* Set width for the round border */
+  height: 50px; /* Set height for the round border */
+  border: 3px solid blue; /* Green border */
+  border-radius: 50%; /* Make the border round */
+  background-color: transparent; /* Transparent background */
+  margin: 10px; /* Margin for spacing */
+}
+.icon-style {
+  color: blue; 
+  font-size: 24px; 
+}

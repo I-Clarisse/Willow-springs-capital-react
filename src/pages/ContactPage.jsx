@@ -1,6 +1,6 @@
 import ContactForm from "../components/ContactForm"; 
 import Footer from "../components/Footer"; 
-import backgroundImage from '../assets/images/key.jpg';
+import backgroundImage from '/images/key.jpg';
 
 
 const ContactPage = () => {

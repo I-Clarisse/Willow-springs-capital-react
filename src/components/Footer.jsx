@@ -1,6 +1,6 @@
-import logo from "../assets/images/logo_white_background.jpg";
-import usgbc from "../assets/images/usgbc.png";
-import uli from "../assets/images/uli.png";
+import logo from "/images/logo_white_background.jpg";
+import usgbc from "/images/usgbc.png";
+import uli from "/images/uli.png";
 
 const Footer = () => {
   return (
@@ -17,10 +17,10 @@ const Footer = () => {
 
         
         <div className="flex justify-center space-x-8 mb-6">
-          <a href="landing" className="hover:underline">Home</a>
-          <a href="/about" className="hover:underline">About Us</a>
-          <a href="/contact" className="hover:underline">Contact Us</a>
-          <a href="/projects" className="hover:underline">Projects</a>
+        <a href="#home" onClick={(e) => smoothScroll(e, "#home")} className="hover:text-gray-700">Home</a>
+          <a href="#identity" onClick={(e) => smoothScroll(e, "#identity")} className="hover:text-gray-700">Identity</a>
+          <a href="#soul" onClick={(e) => smoothScroll(e, "#soul")} className="hover:text-gray-700">Soul</a>
+          <a href="#gifts" onClick={(e) => smoothScroll(e, "#gifts")} className="hover:text-gray-700">Gifts</a>
         </div>
 
         <hr className="my-6 border-gray-200 dark:border-gray-700 lg:my-8" />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from '../assets/images/logo_transparent_background.png';
+import logo from '/images/logo_transparent_background.png';
 
 const ContactForm = () => {
 
