@@ -50,11 +50,11 @@ const TeamSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
         {filteredMembers.map((member, index) => (
           <div key={index} className="text-center">
-            <img
-              src={member.image}
-              alt={member.name}
-              className="w-full h-auto aspect-[4/5] object-cover rounded-lg"
-            />
+          <img
+  src={member.image}
+  alt={member.name}
+  className="w-full max-h-40 aspect-[4/5] object-cover rounded-lg"
+/>
             <h3 className="font-semibold mt-3 text-sm">{member.name}</h3>
             <p className="text-gray-500 text-xs">{member.position}</p>
             <div className="flex justify-center space-x-2 mt-2 text-gray-400 text-lg">
