@@ -1,5 +1,6 @@
 import ContactForm from "../components/ContactForm"; 
 import Footer from "../components/Footer"; 
+import Navbar from "../components/Navbar";
 import backgroundImage from '/images/key.jpg';
 
 
